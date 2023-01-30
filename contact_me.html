@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Contact Me</title>
+    </head>
+    <body>
+        <h1>My Contact Details</h1>
+        <p>Address: 101, Downning Street, LN 21</p>
+        <p>7330764646</p>
+        <p>Email: mahtabkh@gmail.com</p>
+        <hr>
+        <!-- action is used to choose what should happen on submit action="index.html" 
+            redirects to index page on submit of the form
+             post: Corresponds to the HTTP POST method ; form data are included in the 
+             body of the form and sent to the server.-->
+        <form action="mailto:mahtab.kh.sfdc@gmail.com" method="post" enctype="text/plain">
+            <label>Your Name</label>
+            <input type="text" name="Your Name"><br>
+            <label for="">Your Email</label>
+            <input type="email" name="Your Email"><br>
+            <label for="">Your Message</label><br>
+            <textarea name="Your Message" cols="30" rows="10"></textarea><br>
+            <input type="submit">
+        </form>
+    </body>
+</html>
